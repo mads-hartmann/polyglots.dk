@@ -1,6 +1,6 @@
 # polyglots.dk
 
-The website for Copenhagen Tech Polyglot Meeup. Hosted online at http://www.polyglots.dk/
+The website for Copenhagen Tech Polyglot Meetup. Hosted online at http://www.polyglots.dk/
 
 ## Hosting the site
 
