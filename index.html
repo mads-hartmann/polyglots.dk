@@ -9,39 +9,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
   <link rel="icon" type="image/png" href="favicon.png">
-
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
-  <style>
-
-    h1 {
-      font-weight: bold;
-      margin-bottom: 5px;
-    }
-
-    h2 {
-      margin-top: 0px;
-      font-size: 18px;
-      font-style: italic;
-    }
-
-    .header { margin-top: 40px }
-
-    .header p, h1 {
-      color: rgba(0,0,0,0.8);
-    }
-
-    .container {
-      max-width: 720px;
-      padding-bottom: 20px;
-    }
-
-    hr.top { margin-top: 40px; }
-    hr.bottom { margin-bottom: 40px; }
-
-  </style>
+  <script src="/site.js"></script>
+  <link rel="stylesheet" href="/site.css">
 
 </head>
 <body>
@@ -61,41 +34,59 @@
     </div>
 
     <div class="content">
-      <hr class="top"/>
-      <p>Welcome to Copenhagen Tech Polyglot Meetup. We are a group of people that meet to listen and give talks about programming languages. Organized by <a href="https://twitter.com/Mads_Hartmann" target="_blank">@mads_hartmann</a>, <a href="https://twitter.com/keleshev" target="_blank">@keleshev</a>, and <a href="https://twitter.com/jankrag" target="_blank">@jankrag</a>.</p>
-      <p>Event are organized using meetup.com so head over to our <a href="http://www.meetup.com/Copenhagen-Tech-Polyglots/" target="_blank">meetup group</a> for information about upcoming events.</p>
-      <p>Want to give a talk? Write us at <a href="mailto:meetup@polyglots.dk">meetup@polyglots.dk</a>.</p>
-      <hr class="bottom"/>
 
-      <!-- Begin MailChimp Signup Form -->
-      <div id="mc_embed_signup">
-        <form action="//polyglots.us9.list-manage.com/subscribe/post?u=bb4a32ee8e473689c1da6524e&amp;id=fe24d3fc8f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-          <h3>Mailing List</h3>
-          <p>Subscribe to our mailing list to get notifications about future meetups</p>
-          <div class="input-group mc-field-group">
-            <span class="input-group-addon">Email</span>
-            <input type="email" value="" name="EMAIL" id="mcd-EMAIL" class="form-control">
-            <span class="input-group-btn">
-              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default">
-            </span>
-          </div>
-          <div id="mce-responses" class="clear">
-            <div class="response" id="mce-error-response" style="display:none"></div>
-            <div class="response" id="mce-success-response" style="display:none"></div>
-          </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-          <div style="position: absolute; left: -5000px;"><input type="text" name="b_bb4a32ee8e473689c1da6524e_fe24d3fc8f" tabindex="-1" value=""></div>
-        </form>
-      </div>
-      <!--End mc_embed_signup-->
+      <section>
+        <hr class="top"/>
+        <p>Welcome to Copenhagen Tech Polyglot Meetup. We are a group of people that meet to listen and give talks about programming languages. Organized by <a href="https://twitter.com/Mads_Hartmann" target="_blank">@mads_hartmann</a>, <a href="https://twitter.com/keleshev" target="_blank">@keleshev</a>, and <a href="https://twitter.com/jankrag" target="_blank">@jankrag</a>.</p>
+        <p>Event are organized using meetup.com so head over to our <a href="http://www.meetup.com/Copenhagen-Tech-Polyglots/" target="_blank">meetup group</a> for information about upcoming events.</p>
+        <p>Want to give a talk? Write us at <a href="mailto:meetup@polyglots.dk">meetup@polyglots.dk</a>.</p>
+        <hr/>
+      </section>
 
-      <h3>Upcoming Events</h3>
-      <p>The first event will be held on the <strong>16th of September</strong>. If you want to give a talk contact us at <a href="mailto:meetup@polyglots.dk">meetup@polyglots.dk</a>.</p>
-      <p>So far we have the following talks scheduled:</p>
-      <ul>
-        <li>Mathematica by Alexander Polovian</li>
-        <li>Into the Turing tar-pit by Bastian Müller</li>
-      </ul>
-      <p>If you're planning on joining us please sign up for the <a href="http://www.meetup.com/Copenhagen-Tech-Polyglots/events/203534512/" target="_blank">event</a> over at meetup.com.</p>
+      <section>
+        <div id="mc_embed_signup">
+          <form action="//polyglots.us9.list-manage.com/subscribe/post?u=bb4a32ee8e473689c1da6524e&amp;id=fe24d3fc8f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <h3><span class="glyphicon glyphicon-envelope"></span> Mailing List</h3>
+            <p>Subscribe to our mailing list to get notifications about future meetups</p>
+            <div class="input-group mc-field-group">
+              <span class="input-group-addon">Email</span>
+              <input type="email" value="" name="EMAIL" id="mcd-EMAIL" class="form-control">
+              <span class="input-group-btn">
+                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default">
+              </span>
+            </div>
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;"><input type="text" name="b_bb4a32ee8e473689c1da6524e_fe24d3fc8f" tabindex="-1" value=""></div>
+          </form>
+        </div>
+      </section>
+
+      <section>
+        <h3><span class="glyphicon glyphicon-calendar"></span> Upcoming Events</h3>
+
+        <p>The first event will be held on the <strong>16th of September</strong>. If you want to give a talk contact us at <a href="mailto:meetup@polyglots.dk">meetup@polyglots.dk</a>.</p>
+
+        <p>So far we have the following talks scheduled:</p>
+
+        <ul>
+          <li>Mathematica by Alexander Polovian</li>
+          <li>Into the Turing tar-pit by Bastian Müller</li>
+        </ul>
+
+        <p>If you're planning on joining us please sign up for the <a href="http://www.meetup.com/Copenhagen-Tech-Polyglots/events/203534512/" target="_blank">event</a> over at meetup.com. </p>
+      </section>
+
+      <section>
+        <h3><span class="glyphicon glyphicon-heart-empty"></span> Contributors</h3>
+
+        <p>The source for this site is available on Github at <a href="https://github.com/mads379/polyglots.dk" target="_blank">mads379/polyglots.dk</a>. We accept pull-requests and so far the following people have helped maintain the site.</p>
+
+        <ul id="contributors" class="list-inline"></ul>
+      </section>
+
     </div>
 
   </div>

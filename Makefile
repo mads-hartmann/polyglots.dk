@@ -1,4 +1,6 @@
 
+start-webserver:
+	python utils/webserver.py
 
 start-hook:
-	python webhooks/webhook.py polyglots.dk 8081
+	python utils/webhook.py polyglots.dk 8081

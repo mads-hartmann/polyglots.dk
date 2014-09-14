@@ -2,6 +2,14 @@
 
 The website for Copenhagen Tech Polyglot Meetup. Hosted online at http://www.polyglots.dk/
 
+## Developing
+
+If you checkout the site and want to preview your changes before
+creating a pull request you can run the following make target to start
+a small python webserver to serve the site locally.
+
+    make start-webserver
+
 ## Hosting the site
 
 On your host run the following:

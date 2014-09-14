@@ -1,0 +1,35 @@
+h1 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+h2 {
+    margin-top: 0px;
+    font-size: 18px;
+    font-style: italic;
+}
+
+section {
+    padding: 10px 0px;
+}
+
+.header { margin-top: 40px }
+
+.header p, h1 {
+    color: rgba(0,0,0,0.8);
+}
+
+.container {
+    max-width: 720px;
+    padding-bottom: 20px;
+}
+
+hr.top { margin-top: 40px; }
+
+.thumbnail {
+    border: none;
+}
+
+#contributors li {
+    margin-right: 10px;
+}
