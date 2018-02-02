@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    var url = "https://api.github.com/repos/mads379/polyglots.dk/contributors";
+    var url = "https://api.github.com/repos/mads-hartmann/polyglots.dk/contributors";
 
     $.getJSON(url, function(data, status) {
         var list = $("#contributors");

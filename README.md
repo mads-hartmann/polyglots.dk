@@ -14,7 +14,7 @@ a small python webserver to serve the site locally.
 
 On your host run the following:
 
-    git clone https://github.com/mads379/polyglots.dk.git
+    git clone https://github.com/mads-hartmann/polyglots.dk.git
     cd polyglots.dk
     make start-hook
 
